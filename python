@@ -1,0 +1,146 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled4.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNssef7WF+Sdsiju1eg/f5Y",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/kimsunyeon/kimsunyeon/blob/main/python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "BBF3TyoUC5rR"
+      },
+      "source": [
+        "age = 20\n",
+        "if age < 20:\n",
+        "  print(\"20살 미만\")\n",
+        "else:\n",
+        "  print(\"20살 이상\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "IG3wkGOPDzwi"
+      },
+      "source": [
+        "age = 20\n",
+        "if age <= 30 and age <= 50:\n",
+        "  print(\"20살 미만\")\n",
+        "else:\n",
+        "  print(\"20살 이상\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "qHrOYbMSEYiR"
+      },
+      "source": [
+        "temp = int(input(\"현재 온도를 입력하세요: \"))\n",
+        "\n",
+        "if temp >= 25:\n",
+        "  print(\"반바지 입으세요.\")\n",
+        "else:\n",
+        "  print(\"긴바지 입으세요.\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "ea815g7nE_5D"
+      },
+      "source": [
+        "score = int(input(\"정수를 입력하세요.: \"))\n",
+        "if score <= 90:\n",
+        "  print(\"A입니다.\")\n",
+        "elif score <= 80:\n",
+        "  print(\"B입니다.\")\n",
+        "elif score <= 70:\n",
+        "  print(\"C입니다.\")\n",
+        "elif score <= 60:\n",
+        "  print(\"D입니다.\")\n",
+        "else:\n",
+        "  print(\"F입니다. 내년에 또 봐요.\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "oFqr6hdzGBp7"
+      },
+      "source": [
+        "import random\n",
+        "x = random.randint(1, 100) #1에서 100까지 랜덤으로\n",
+        "y = random.randint(1, 100)\n",
+        "\n",
+        "answer = int(input(str(x)+\"-\"+str(y)+\"-\"))\n",
+        "if answer ==x - y:\n",
+        "  print(\"맞았습니다.\")\n",
+        "else:\n",
+        "  print(\"틀렸습니다.\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "svA9lKv_Iu7H"
+      },
+      "source": [
+        "n = int(input(\"정수를 입력하시오: \"))\n",
+        "if n%2 == 0 and n%3 == 0:\n",
+        "  print(\"2와 3으로 나누어 떨어집니다.\")\n",
+        "else:\n",
+        "  print(\"안 됩니다.\")\n",
+        "  "
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Kpz3_PbbL0Vb"
+      },
+      "source": [
+        "for i in range(2, 101):\n",
+        "  if 1%2==0:\n",
+        "    print(i,end = \"\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
