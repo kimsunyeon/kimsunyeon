@@ -1,0 +1,211 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled5.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOG3PXucLjIw+lNrQIEP8a0",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/kimsunyeon/kimsunyeon/blob/main/Chapter1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_JfI_BOc3nz5",
+        "outputId": "82d6daa7-c0d8-4646-c617-07278f2151f8"
+      },
+      "source": [
+        "print(\"환영합니다\")\n",
+        "print(\"파이썬의 세계에 오신 것을 환영합니다.\")\n",
+        "print(\"파이썬은 강력합니다.\")"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "환영합니다\n",
+            "파이썬의 세계에 오신 것을 환영합니다.\n",
+            "파이썬은 강력합니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GxTF01uH31O7",
+        "outputId": "48be311c-b64e-4fa8-9c07-52ad6e23d2ea"
+      },
+      "source": [
+        "print(\"반갑습니다. 파이썬!\")\n",
+        "print(2*3/10)\n",
+        "print(\"Hello\", \"world\", \"!!!\")"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "반갑습니다. 파이썬!\n",
+            "0.6\n",
+            "Hello world !!!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "K4xO8P6b4Iw5",
+        "outputId": "24c27ee0-ebcf-4de9-ad43-6d2e10002dee"
+      },
+      "source": [
+        "print(7*24)"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "168\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VbAumBnV4N7J",
+        "outputId": "d79f0668-46b9-4f90-f03e-ef729349493c"
+      },
+      "source": [
+        "print(\"안녕하세요?\")"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "안녕하세요?\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "se5Qg78i4YGD",
+        "outputId": "b4e1d5a8-ff35-4f63-f839-44d2907f8706"
+      },
+      "source": [
+        "print(\"programming에 입문하신 것을 축하드립니다.\")"
+      ],
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "programming에 입문하신 것을 축하드립니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_UVYrK7j4fHQ",
+        "outputId": "41280857-7fae-4e6f-f1c1-38cefca1ecdd"
+      },
+      "source": [
+        "print(3.141592*10.0*10.0)"
+      ],
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "314.1592\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Jnaxvrq54lLw",
+        "outputId": "6266bee4-e82d-4803-dbdb-60705438912a"
+      },
+      "source": [
+        "print((1/100)*1234)"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "12.34\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "nn9Q6mYW4seS"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
